@@ -18,7 +18,7 @@ const QuickLinks = () => {
       className="quick-links"
       initial={{ opacity: 0, x: 50 }}
       animate={{ opacity: 1, x: 0 }}
-      transition={{ delay: 1.5, duration: 0.8 }}
+      transition={{ delay: 1.5, duration: 0.8  }}
     >
       <div className="links-container">
         {links.map((link, idx) => (
