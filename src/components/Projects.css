@@ -1,0 +1,83 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.project-header h3 {
+  font-size: 1.4rem;
+  color: var(--text-primary);
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-links a {
+  color: var(--text-secondary);
+}
+
+.project-links a:hover {
+  color: var(--text-primary);
+}
+
+.project-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-tertiary);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-description {
+  flex-grow: 1;
+  margin-bottom: 2rem;
+}
+
+.project-description p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.impact {
+  color: var(--text-primary) !important;
+  font-style: italic;
+  border-left: 2px solid var(--border-color);
+  padding-left: 1rem;
+}
+
+.impact strong {
+  color: var(--text-secondary);
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: auto;
+}
+
+.project-stack span {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}

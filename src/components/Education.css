@@ -1,0 +1,69 @@
+.edu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.column-title {
+  font-size: 1.2rem;
+  color: var(--text-tertiary);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.edu-card, .cert-card {
+  padding: 2rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.edu-header, .cert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.edu-header h4, .cert-header h4 {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.edu-header span, .cert-header span {
+  font-family: monospace;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.edu-card h5 {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.edu-card p, .cert-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.cert-id {
+  margin-top: 1rem;
+  font-family: monospace;
+  font-size: 0.85rem !important;
+  color: var(--text-tertiary) !important;
+}
+
+@media (max-width: 968px) {
+  .edu-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
