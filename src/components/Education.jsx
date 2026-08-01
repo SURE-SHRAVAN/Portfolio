@@ -6,8 +6,8 @@ const certifications = [
   {
     title: "Infosys Springboard Internship",
     issuer: "Infosys",
-    date: "2023",
-    url: "#"
+    date: "2026",
+    url: "https://drive.google.com/file/d/1PVasowROlbJH6Zn5-we_aumnlMrlycOu/view?usp=sharing"
   },
   {
     title: "GitHub Foundations",
