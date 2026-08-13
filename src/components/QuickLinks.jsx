@@ -9,7 +9,7 @@ const links = [
   { name: 'GitHub', icon: <FiGithub size={20} />, url: 'https://github.com/SURE-SHRAAVAN' },
   { name: 'LinkedIn', icon: <FiLinkedin size={20} />, url: 'https://www.linkedin.com/in/shraavan-sure-7196a52a2' },
   { name: 'LeetCode', icon: <SiLeetcode size={20} />, url: '#' }, // user will provide
-  { name: 'HackerRank', icon: <SiHackerrank size={20} />, url: '#' } // user will provide
+  { name: 'HackerRank', icon: <SiHackerrank size={20} />, url: 'https://www.hackerrank.com/profile/sureshravan33' } // user will provide
 ];
 
 const QuickLinks = () => {
