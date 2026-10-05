@@ -22,15 +22,26 @@ const projects = [
     github: "#",
     live: "#"
   },
-  {
-    title: "AI News Summarizer",
-    subtitle: "NLP-driven News App",
-    stack: ["BeautifulSoup", "OCR", "NLTK", "Transformers", "Python", "Django"],
-    description: "Created a tool that scrapes, processes, and summarizes news articles from URLs, images, or PDFs. Applied OCR, NLP summarization, and bias detection techniques to output validated summaries.",
-    impact: "Cut news reading time by 75% for professionals and delivered bias awareness.",
+  
+    {
+    title: "Medical Report Analyzer",
+    subtitle: "AI-Powered Healthcare NLP Application",
+    stack: [
+        "Python",
+        "PyTorch",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "spaCy",
+        "Tesseract OCR"
+    ],
+    description: "Built an AI-powered application that processes medical reports and extracts relevant clinical information from unstructured text and scanned documents. Integrated OCR and NLP techniques to identify clinical entities and present structured insights through a web interface.",
+    impact: "Automated medical report processing and reduced the effort required for extracting relevant information from unstructured reports.",
     github: "#",
     live: "#"
-  },
+},
+  
   {
     title: "Budget Wise",
     subtitle: "Financial Tracking & Analysis",
